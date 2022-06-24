@@ -1,0 +1,55 @@
+/* Shared */
+
+.header,
+.header-normal,
+.paragraph {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Headers */
+
+.header {
+  font-size: 3.25em;
+}
+
+.header-normal {
+  font-size: 2.50em;
+}
+
+.header-small {
+  font-size: 1.75em;
+  font-weight: 500;
+}
+
+/* Text */
+
+.paragraph {
+  font-size: 1.50em;
+  margin: auto;
+  width: 50%;
+}
+
+/* Lists */
+
+.list {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Images */
+
+body {
+  background: center url("img/background.jpg");
+  backdrop-filter: blur(1px);
+}
+
+/* To do: extend blur to the whole page, not just elements */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 400px;
+}
